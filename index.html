@@ -5,11 +5,11 @@
     <link rel="stylesheet" href="https://unpkg.com/98.css" />
   </head>
 
-  <body>
-    <div class="window" style="margin: 32px; width: 250px">
+  <body style="background-color:#00807F;">
+    <div class="window" style="margin: 200px auto; width: 530px; height: 600px">
       <div class="title-bar">
         <div class="title-bar-text">
-          bytepusmo
+          bytepushmo
         </div>
 
         <div class="title-bar-controls">
@@ -20,10 +20,8 @@
       </div>
       <div class="window-body">
         <p>my first emulator!</p>
-        <section class="field-row" style="justify-content: flex-end">
-          <button>OK</button>
-          <button>Cancel</button>
-        </section>
+        <canvas id="canvas" width="512" height="512" style="border:1px solid gray">
+        </canvas>
       </div>
     </div>
   </body>
