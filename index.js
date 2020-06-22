@@ -58,7 +58,13 @@ fileSelector.addEventListener('change', (event) => {
         console.log(e.target.result);
         imgData.data.set(new Uint8ClampedArray(e.target.result));
         ctx.putImageData(imgData,0,0);
+        run();
     });
     reader.readAsArrayBuffer(fileList[0]);
 });
 
+
+
+const run = () => {
+    
+}
